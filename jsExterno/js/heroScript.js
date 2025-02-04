@@ -1,4 +1,4 @@
-let nomePlayer = "altria";
+let nomePlayer = "altria";// armazena o nome
 let playerCoin = 5;
 let playerVd = 3;
 let playerLev = 1;
@@ -8,10 +8,11 @@ let dano = playerAtk - playerDef ;
 let playerHp = prompt('informe o HP do personagem:')
   if (playerHp > 0) {
       console.log('o personagem esta vivo ')
-  };
+  } else console.log('presunto');  
+let wrdChalenge = while(playerLev <= 10)
 
 console.log(nomePlayer);
-console.log('o heroi tem ${playerCoin} e ${playerVd}');
+console.log("o heroi tem, ${playerCoin}");
 console.log(typeof playerLev);
 console.log('dano causado ${dano}');
 
